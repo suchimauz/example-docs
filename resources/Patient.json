@@ -1,0 +1,71 @@
+{
+    "address": [
+     {
+      "city": "Musterhausen",
+      "line": [
+       "Musterweg 2",
+       "3. Etage"
+      ],
+      "type": "both",
+      "country": "DE",
+      "postalCode": "98764"
+     }
+    ],
+    "meta": {
+     "profile": [
+      "https://gematik.de/fhir/isik/v2/Basismodul/StructureDefinition/ISiKPatient"
+     ],
+     "lastUpdated": "2023-06-20T11:38:53.687579Z",
+     "versionId": "9",
+     "extension": [
+      {
+       "url": "http://fhir.aidbox.app/extension/createdat",
+       "valueInstant": "2023-06-20T10:47:58.982725Z"
+      }
+     ]
+    },
+    "name": [
+     {
+      "use": "official",
+      "given": [
+       "Erika"
+      ],
+      "family": "Fürstin von Musterfrau"
+     }
+    ],
+    "birthDate": "1964-08-12",
+    "resourceType": "Patient",
+    "active": true,
+    "id": "274e9392-acbb-4867-8022-de1fac9b7842",
+    "identifier": [
+     {
+      "type": {
+       "coding": [
+        {
+         "code": "MR",
+         "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+        }
+       ]
+      },
+      "value": "TestPID",
+      "system": "https://fhir.krankenhaus.example/sid/PID"
+     },
+     {
+      "type": {
+       "coding": [
+        {
+         "code": "MR",
+         "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+        },
+        {
+         "code": "GKV",
+         "system": "http://fhir.de/CodeSystem/identifier-type-de-basis"
+        }
+       ]
+      },
+      "value": "A123456789",
+      "system": "http://fhir.de/sid/gkv/kvid-10"
+     }
+    ],
+    "gender": "female"
+   }

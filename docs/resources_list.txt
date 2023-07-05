@@ -1,0 +1,8 @@
+Patient - Information about an individual receiving health-related services.
+Coverage - Insurance card information.
+Organization(Hospital) - Information about a hospital.
+Organization(Insurance) - Information about an insurance company.
+Practitioner - Personal information about a doctor and his qualifications.
+PractitionerRole - Information about what specialty a practitioner works in an organization for a certain period of time.
+ServiceRequest - General information about a request for transportation.
+Task - Information about a transportation that can be performed and tracking the status of completion of this transportation.

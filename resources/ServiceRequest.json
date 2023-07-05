@@ -1,0 +1,67 @@
+{
+    "category": [
+     {
+      "coding": [
+       {
+        "code": "428632005",
+        "system": "http://snomed.info/sct",
+        "display": "Transportation request (procedure)"
+       }
+      ]
+     }
+    ],
+    "meta": {
+     "lastUpdated": "2023-06-21T08:15:13.919783Z",
+     "versionId": "45",
+     "extension": [
+      {
+       "url": "http://fhir.aidbox.app/extension/createdat",
+       "valueInstant": "2023-06-21T07:14:58.793799Z"
+      }
+     ]
+    },
+    "authoredOn": "2023-06-21T07:57:38Z",
+    "resourceType": "ServiceRequest",
+    "requester": {
+     "reference": "PractitionerRole/c0ae7f65-8478-4c10-b088-5d295217ec49"
+    },
+    "priority": "urgent",
+    "occurrencePeriod": {
+     "start": "2023-06-26"
+    },
+    "status": "active",
+    "id": "c27f4af7-84ee-4df3-85f9-6ce580c4a3d2",
+    "code": {
+     "coding": [
+      {
+       "code": "17542004",
+       "system": "http://snomed.info/sct",
+       "display": "Work accident"
+      }
+     ]
+    },
+    "intent": "order",
+    "orderDetail": [
+     {
+      "coding": [
+       {
+        "code": "308540004",
+        "system": "http://snomed.info/sct",
+        "display": "Inpatient stay (finding)"
+       }
+      ]
+     },
+     {
+      "coding": [
+       {
+        "code": "367336001",
+        "system": "http://snomed.info/sct",
+        "display": "Chemotherapy"
+       }
+      ]
+     }
+    ],
+    "subject": {
+     "reference": "Patient/274e9392-acbb-4867-8022-de1fac9b7842"
+    }
+   }

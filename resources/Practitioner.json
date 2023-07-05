@@ -1,0 +1,124 @@
+{
+    "address": [
+     {
+      "city": "Potsdam",
+      "line": [
+       "Schmiedegasse 16"
+      ],
+      "type": "both",
+      "_line": [
+       {
+        "extension": [
+         {
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+          "valueString": "16"
+         },
+         {
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+          "valueString": "Schmiedegasse"
+         }
+        ]
+       }
+      ],
+      "country": "DE",
+      "postalCode": "14469"
+     }
+    ],
+    "meta": {
+     "source": "http://krankenhaus.de",
+     "profile": [
+      "https://gematik.de/fhir/isik/v2/Basismodul/StructureDefinition/ISiKPersonImGesundheitsberuf"
+     ],
+     "lastUpdated": "2023-06-20T12:48:21.005199Z",
+     "versionId": "23",
+     "extension": [
+      {
+       "url": "http://fhir.aidbox.app/extension/createdat",
+       "valueInstant": "2023-06-20T12:48:21.005199Z"
+      }
+     ]
+    },
+    "name": [
+     {
+      "use": "official",
+      "text": "Walter Arzt",
+      "given": [
+       "Walter"
+      ],
+      "family": "Arzt",
+      "_family": {
+       "extension": [
+        {
+         "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+         "valueString": "Arzt"
+        }
+       ]
+      }
+     },
+     {
+      "use": "maiden",
+      "text": "Gross",
+      "family": "Gross",
+      "_family": {
+       "extension": [
+        {
+         "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+         "valueString": "Gross"
+        }
+       ]
+      }
+     }
+    ],
+    "_birthDate": {
+     "extension": [
+      {
+       "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+       "valueCode": "masked"
+      }
+     ]
+    },
+    "resourceType": "Practitioner",
+    "active": true,
+    "id": "e84cf7f0-783c-4a7a-bea9-17942f7ce2d1",
+    "identifier": [
+     {
+      "type": {
+       "coding": [
+        {
+         "code": "LANR",
+         "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+        }
+       ]
+      },
+      "value": "123456789",
+      "system": "https://fhir.kbv.de/NamingSystem/KBV_NS_Base_ANR"
+     },
+     {
+      "type": {
+       "coding": [
+        {
+         "code": "DN",
+         "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+        }
+       ]
+      },
+      "value": "123456789123456",
+      "system": "http://fhir.de/sid/bundesaerztekammer/efn"
+     }
+    ],
+    "qualification": [
+     {
+      "code": {
+       "coding": [
+        {
+         "code": "112247003",
+         "system": "http://snomed.info/sct",
+         "display": "Medical doctor (occupation)",
+         "version": "http://snomed.info/sct/900000000000207008/version/20200131"
+        }
+       ]
+      }
+     }
+    ],
+    "gender": "male"
+   }

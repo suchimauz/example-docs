@@ -1,0 +1,61 @@
+{
+    "address": [
+     {
+      "city": "Lisberg",
+      "line": [
+       "Borstelmannsweg 85"
+      ],
+      "type": "both",
+      "_line": [
+       {
+        "extension": [
+         {
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+          "valueString": "Borstelmannsweg"
+         },
+         {
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+          "valueString": "85"
+         }
+        ]
+       }
+      ],
+      "country": "DE",
+      "postalCode": "96170"
+     }
+    ],
+    "meta": {
+     "profile": [
+      "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/IsipOrganization"
+     ],
+     "lastUpdated": "2023-06-20T12:45:40.263913Z",
+     "versionId": "19",
+     "extension": [
+      {
+       "url": "http://fhir.aidbox.app/extension/createdat",
+       "valueInstant": "2023-06-20T12:45:40.263913Z"
+      }
+     ]
+    },
+    "name": "Heiliges Herz",
+    "type": [
+     {
+      "coding": [
+       {
+        "code": "22232009",
+        "system": "http://snomed.info/sct",
+        "display": "Hospital (environment)"
+       }
+      ]
+     }
+    ],
+    "resourceType": "Organization",
+    "active": true,
+    "id": "13b5f185-4d23-4e47-8ab4-af9e334ad094",
+    "identifier": [
+     {
+      "value": "260326822",
+      "system": "http://fhir.de/sid/arge-ik/iknr"
+     }
+    ]
+   }

@@ -1,0 +1,39 @@
+{
+    "meta": {
+     "profile": [
+      "https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_PractitionerRole"
+     ],
+     "lastUpdated": "2023-06-20T12:53:27.627126Z",
+     "versionId": "27",
+     "extension": [
+      {
+       "url": "http://fhir.aidbox.app/extension/createdat",
+       "valueInstant": "2023-06-20T12:49:48.645638Z"
+      }
+     ]
+    },
+    "specialty": [
+     {
+      "coding": [
+       {
+        "code": "Chirurgie",
+        "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_BAR2_ARZTNRFACHGRUPPE"
+       }
+      ]
+     }
+    ],
+    "organization": {
+     "identifier": {
+      "value": "260326822",
+      "system": "http://fhir.de/sid/arge-ik/iknr"
+     }
+    },
+    "practitioner": {
+     "identifier": {
+      "value": "123456789123456",
+      "system": "http://fhir.de/sid/bundesaerztekammer/efn"
+     }
+    },
+    "id": "c0ae7f65-8478-4c10-b088-5d295217ec49",
+    "resourceType": "PractitionerRole"
+   }

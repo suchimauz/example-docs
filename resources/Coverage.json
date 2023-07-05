@@ -1,0 +1,60 @@
+{
+    "meta": {
+     "profile": [
+      "https://gematik.de/fhir/isik/v2/Basismodul/StructureDefinition/ISiKVersicherungsverhaeltnisGesetzlich"
+     ],
+     "lastUpdated": "2023-06-20T11:47:59.159427Z",
+     "versionId": "13",
+     "extension": [
+      {
+       "url": "http://fhir.aidbox.app/extension/createdat",
+       "valueInstant": "2023-06-20T11:45:28.104776Z"
+      }
+     ]
+    },
+    "beneficiary": {
+     "reference": "Patient/274e9392-acbb-4867-8022-de1fac9b7842"
+    },
+    "type": {
+     "coding": [
+      {
+       "code": "GKV",
+       "system": "http://fhir.de/CodeSystem/versicherungsart-de-basis"
+      }
+     ]
+    },
+    "resourceType": "Coverage",
+    "payor": [
+     {
+      "display": "Eine Gesundheitskasse",
+      "identifier": {
+       "type": {
+        "coding": [
+         {
+          "code": "XX",
+          "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+         }
+        ]
+       },
+       "value": "260326822",
+       "system": "http://fhir.de/sid/arge-ik/iknr"
+      }
+     }
+    ],
+    "status": "active",
+    "id": "d596af06-603b-4b22-bb33-a2b9572a293d",
+    "identifier": [
+     {
+      "type": {
+       "coding": [
+        {
+         "code": "GKV",
+         "system": "http://fhir.de/CodeSystem/identifier-type-de-basis"
+        }
+       ]
+      },
+      "value": "A123456789",
+      "system": "http://fhir.de/sid/gkv/kvid-10"
+     }
+    ]
+   }

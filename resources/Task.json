@@ -1,0 +1,95 @@
+{
+    "meta": {
+     "lastUpdated": "2023-06-21T08:50:47.987321Z",
+     "versionId": "54",
+     "extension": [
+      {
+       "url": "http://fhir.aidbox.app/extension/createdat",
+       "valueInstant": "2023-06-21T08:35:13.792708Z"
+      }
+     ]
+    },
+    "authoredOn": "2023-06-21T07:57:38Z",
+    "resourceType": "Task",
+    "note": [
+     {
+      "text": "Additional info"
+     }
+    ],
+    "for": {
+     "reference": "Patient/274e9392-acbb-4867-8022-de1fac9b7842"
+    },
+    "requester": {
+     "reference": "PractitionerRole/c0ae7f65-8478-4c10-b088-5d295217ec49"
+    },
+    "priority": "urgent",
+    "status": "requested",
+    "id": "4be70cd4-426b-40ff-b6ae-d536a1d98850",
+    "code": {
+     "coding": [
+      {
+       "code": "428632005",
+       "system": "http://snomed.info/sct",
+       "display": "Transportation request (procedure)"
+      }
+     ]
+    },
+    "intent": "order",
+    "input": [
+     {
+      "type": {
+       "coding": [
+        {
+         "code": "destination-address",
+         "system": "urn:valueset:task-input-type"
+        }
+       ]
+      },
+      "valueString": "Lisberg, Borstelmannsweg 85"
+     },
+     {
+      "type": {
+       "coding": [
+        {
+         "code": "destination-name",
+         "system": "urn:valueset:task-input-type"
+        }
+       ]
+      },
+      "valueString": "Heiliges Herz"
+     },
+     {
+      "type": {
+       "coding": [
+        {
+         "code": "transport-type",
+         "system": "urn:valueset:task-input-type"
+        }
+       ]
+      },
+      "valueCoding": {
+       "code": "KTW",
+       "system": "urn:valueset:transport-type"
+      }
+     },
+     {
+      "type": {
+       "coding": [
+        {
+         "code": "transport-mode",
+         "system": "urn:valueset:task-input-type"
+        }
+       ]
+      },
+      "valueCoding": {
+       "code": "wheelchair",
+       "system": "urn:valueset:transport-mode"
+      }
+     }
+    ],
+    "basedOn": [
+     {
+      "reference": "ServiceRequest/c27f4af7-84ee-4df3-85f9-6ce580c4a3d2"
+     }
+    ]
+   }
